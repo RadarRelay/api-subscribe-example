@@ -1,0 +1,14 @@
+{
+  "name": "@radarrelay/api-subscribe-example",
+  "version": "0.0.1",
+  "description": "An example Radar Relay API subscription.",
+  "main": "index.js",
+  "dependencies": {
+    "websocket": "^1.0.26"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mike Roth<mike@radarrelay.com",
+  "license": "MIT"
+}
