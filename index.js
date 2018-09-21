@@ -36,6 +36,7 @@ client.on('connect', function(connection) {
       "type": "SUBSCRIBE",
       "topic": "BOOK",
       "market": "ZRX-WETH", // e.g. 'ZRX-WETH'
+      "requestId": "1"
     }`);
 
     // Send a ping every 10s to
