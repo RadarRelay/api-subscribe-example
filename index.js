@@ -36,7 +36,7 @@ client.on('connect', function(connection) {
       "type": "SUBSCRIBE",
       "topic": "BOOK",
       "market": "ZRX-WETH", // e.g. 'ZRX-WETH'
-      "requestId": 1 // optional requestId
+      "requestId": "1"
     }`);
 
     // Send a ping every 10s to
@@ -48,4 +48,4 @@ client.on('connect', function(connection) {
 
 });
 
-client.connect('wss://ws.radarrelay.com/ws');
+client.connect('wss://ws.radarrelay.com/v2');
